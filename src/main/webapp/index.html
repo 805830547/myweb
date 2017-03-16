@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="jquery-1.3.1.js"></script>
+<script type="text/javascript">
+    window.onresize =
+    window.onload = function(){
+        $(".container").height($(document).height());
+        $(".container").width($(document).width());
+    }
+</script>
+<style type="text/css">
+    body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .container{
+        background: green;
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+</style>
+</head>
+<body>
+    <div id="container" class="container">haha</div>
+</body>
+</html>
